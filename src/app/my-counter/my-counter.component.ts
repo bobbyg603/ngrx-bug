@@ -8,7 +8,6 @@ import { decrement, increment, reset } from '../state/counter.actions';
   selector: 'app-my-counter',
   standalone: true,
   imports: [CommonModule],
-  providers: [Store],
   templateUrl: './my-counter.component.html',
   styleUrls: ['./my-counter.component.scss']
 })

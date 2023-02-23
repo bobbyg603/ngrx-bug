@@ -31,7 +31,6 @@ describe('MyCounterComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  // Why does this fail?
   describe('count$', () => {
     it('should emit initialCount', async () => {
       const result = await firstValueFrom(component.count$);
